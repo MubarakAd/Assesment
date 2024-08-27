@@ -6,7 +6,7 @@ export const blogApi = createApi({
     reducerPath: 'blogApi',
     baseQuery: fetchBaseQuery({ baseUrl: 'https://a2sv-backend.onrender.com/api/' }),
     endpoints: (builder) => ({
-      getAllBlogs: builder.query<BlogPost, void>({
+      getAllBlogs: builder.query<Blog[], void>({
         query: (name) => `blogs`,
       }),
       getBlogsById:builder.query<Blog, String>({
