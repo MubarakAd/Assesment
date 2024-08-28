@@ -64,6 +64,9 @@ To get a local copy up and running, follow these steps:
 ### Prerequisites
 
 - **Node.js**: Ensure you have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
+## Demo
+### Card
+![Alt text](./public/Screenshot (70).png)
 
 ### Installation
 
